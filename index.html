@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+
+  <link rel="icon" href="simon.jpg">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/1085e10502.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h2><span class="name1">S</span><span class="name2">im</span><span class="name3">o</span><span class="name4">n</span></h2>
+
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+
+    <div class="rules-icon">
+      <h3><a href="#">Rules</a></h3>
+    </div>
+
+  <div class="rules">
+    <a href=""><i class="fas fa-times-circle close"></i></a>
+    <i class="fas fa-gamepad fa-3x"></i>
+    <h1>Rules</h1>
+    <ul>
+      <li>Game starts by pressing any key.</li>
+      <li>As soon as the players presses any key, button gets blinked.</li>
+      <li>Player has to repeat the sequence. If he messes up, the game is over.</li>
+      <p>
+        e.g
+      </p>
+      <table>
+        <thead>
+          <th>Level</th>
+          <th>Game Pattern</th>
+          <th>Player's Pattern</th>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td>Blue</td>
+          <td>Blue</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Green</td>
+          <td>Blue, Green</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            Red
+          </td>
+          <td>Blue, Green, Red</td>
+        </tr>
+      </table>
+    </ul>
+  </div>
+
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="simon.js" charset="utf-8"></script>
+
+</body>
+
+</html>
