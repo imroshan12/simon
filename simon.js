@@ -7,6 +7,7 @@ var level = 0;
 
 var buttonColours = ['red', 'blue', 'green', 'yellow'];
 
+alert('Play this game on PC or Laptop');
 
 function nextSequence() {
   var randomNumber = Math.floor(Math.random()*4);
