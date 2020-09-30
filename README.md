@@ -1,2 +1,2 @@
 # simon
-Simon Game- Test your memory
+Simon Game by sarvesh roshan- Test your memory
