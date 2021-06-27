@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #cceabb;
+  background-color: #F9F9F9;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,17 +31,17 @@ td {
 }
 
 .name1 {
-  color: red;
+  color: #FF616D;
 }
 
 .name2 {
-  color: green;
+  color: #66DE93;
 }
 .name3 {
-  color: blue;
+  color: #3EDBF0;
 }
 .name4 {
-  color: yellow;
+  color: #FFEDA3;
 }
 
 .container {
